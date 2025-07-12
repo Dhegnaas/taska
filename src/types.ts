@@ -3,3 +3,5 @@ export interface task{
     title: string;
     done:boolean;
 }
+
+export type taskfilter = "all" | "todo" | "done";
